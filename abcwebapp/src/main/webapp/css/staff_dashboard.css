@@ -1,0 +1,97 @@
+section {
+    margin-bottom: 40px;
+}
+h2{
+	color: #fff;
+	text-align: center;
+}
+
+/* Button Styles */
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+/* Form Styles */
+
+form input[type="hidden"] {
+    display: none;
+    
+}
+form textarea {
+	background-color: #111;
+}
+.query-updatebtn{
+    width: 140px;
+    margin-left: 17%;
+}
+/* Reservation Section */
+.res-section {
+  background-color: #070e16; /* Black background */
+
+  padding: 150px 20px; /* Padding around the section */
+  text-align: center; /* Center align text */
+}
+
+.res-section h1 {
+  font-size: 48px; /* Large heading font size */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 20px; /* Space between heading and tagline */
+}
+
+.res-section h1 span {
+  color: #864d25; /* Gold color for accent words */
+}
+.res-section h1 {
+	color: #fff;
+}
+/* Input Field Styling */
+form input, form select, form textarea {
+    background-color: #111; /* Background color for input fields */
+    color: white; /* White text for contrast */
+    padding: 15px; /* Add padding for better readability */
+    border-radius: 32px; /* Rounded corners */
+    border: none; /* Remove default border */
+    font-size: 14px; /* Standardize font size */
+    width: 100%; /* Make input fields span the width of the container */
+    margin-bottom: 20px; /* Space between input fields */
+}
+
+/* Table Styling */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    border-radius: 10px; /* Added border-radius */
+    background-color: #000; /* Table background color set to black */
+    border: 1px solid #111; /* Set border color for the table */
+    text-align: center; /* Center the table content */
+    margin-left: 21%;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #111; /* Border color set to #111 */
+    color: #fff; /* White text for better readability */
+    text-align: center; /* Center the table content */
+}
+
+table th {
+    background-color: #111; /* Slightly lighter background for table headers */
+    text-align: center; /* Center the table headers */
+}
+
+/* Style Even Rows	
+table tr:nth-child(even) {
+    background-color: #111; /* Even rows background color */
+}*/
+

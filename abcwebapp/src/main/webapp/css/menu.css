@@ -1,0 +1,162 @@
+body {
+    background-color: #111;
+}
+.menu-hero{
+	position: absolute; /* Or relative based on your layout */
+    top: 100%; /* Move down to the center */
+    left: 50%; /* Move right to the center */
+    transform: translate(-50%, -50%); /* Adjust back to center */
+    text-align: center; /* Center text within the div */
+	
+}
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero-btn {
+    background-color: #864d25;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 32px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color:#9c6643;
+}
+
+
+.menu-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0px;
+    color: #ffffff; /* White text for a darker background */
+    background-color: #111; /* Dark background color */
+}
+.btn {
+    background-color: #864d25; /* Button background color */
+    color: #000000; /* Button text color */
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 32px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.btn:hover{
+	background-color: #9c6643; /* Darken button on hover */
+}
+/* Menu Grid Styles */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Grid layout with 4 columns */
+    gap: 20px; /* Increased gap for spacing */
+    justify-items: center;
+    padding: 40px 0; /* Extra padding for layout spacing */
+    background-color: #111; /* Dark background color */
+}
+
+.menu-item {
+    width: 100%;
+    max-width: 300px; /* Slightly reduced max width for items */
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    background-color: #1e1e1e; /* Dark background for the cards */
+    /* Remove border-radius */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff; /* White text color */
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+}
+
+.menu-item-image {
+    height: 200px;
+    overflow: hidden;
+    /* Remove border-radius */
+}
+
+.menu-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.menu-item .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #fff; /* Golden color for the item titles */
+    text-align: center;
+}
+
+.menu-item .description {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #cccccc; /* Light grey for description text */
+    line-height: 1.5;
+    text-align: center;
+}
+
+.menu-item .price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff; /* White color for price */
+}
+
+
+/* Set #111 as background color for the entire container */
+.container {
+    background-color: #111;
+}
+	

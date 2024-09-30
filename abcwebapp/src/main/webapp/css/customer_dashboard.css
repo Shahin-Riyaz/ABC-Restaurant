@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+.profile-management h2, .reservation-management h2, .user-queries h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #FFF;
+    text-align: center; /* Center the h2 heading */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px; /* Added border-radius */
+    background-color: #000; /* Table background color set to black */
+    border: 1px solid #111; /* Set border color for the table */
+    text-align: center; /* Center the table content */
+    
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #111; /* Border color set to #111 */
+    text-align: center; /* Center the table contents */
+    color: #fff; /* White text for better readability */
+}
+
+table th {
+    background-color: #111; /* Slightly lighter background for table headers */
+}
+
+table tr:nth-child(even) {
+    background-color: #111; /* Even rows background color */
+}
+
+
+
+/* User Queries Section */
+.user-queries table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #000; /* Table background color set to black */
+    margin-bottom: 50px;
+}
+
+.user-queries table th,
+.user-queries table td {
+    border: 1px solid #111; /* Border color set to #111 */
+    padding: 12px;
+    text-align: center; /* Center the table content */
+    color: #fff; /* White text for better readability */
+}
+
+.user-queries table th {
+    background-color: #111; /* Slightly lighter background for table headers */
+    font-weight: bold;
+}
+
+.user-queries table tr:nth-child(even) {
+    background-color: #111; /* Even rows background color */
+}
+
+.update-profile-btn {
+    width: 100px;
+}
+
+
+/* Reservation Section */
+.res-section {
+  background-color: #070e16; /* Black background */
+  color: #fff; /* White text color */
+  padding: 150px 20px; /* Padding around the section */
+  text-align: center; /* Center align text */
+}
+
+.res-section h1 {
+  font-size: 48px; /* Large heading font size */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 20px; /* Space between heading and tagline */
+}
+
+.res-section h1 span {
+  color: #864d25; /* Gold color for accent words */
+}
+
+.res-section .tagline {
+  font-size: 18px; /* Smaller font size for tagline */
+  font-weight: 300; /* Lighter weight for tagline */
+  color: #ddd; /* Light grey for tagline */
+} 
